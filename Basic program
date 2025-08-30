@@ -1,0 +1,33 @@
+//Print Hello world
+#include<stdio.h>
+
+int main(){
+    printf("Hello world");
+    return 0;
+}
+
+//print two numbers
+#include<stdio.h>
+
+int main(){
+    int a, b;
+    printf("enter a: ");
+    scanf("%d" , &a);
+
+    printf("enter b: ");
+    scanf("%d" , &b);
+
+    printf("sum is: %d" , a+b);
+    return 0;
+}
+
+//write a program to calculate area of square
+#include<stdio.h>
+int main(){
+    int side;
+    printf("enter side : ");
+    scanf("%d" ,&side);
+
+    printf("area is : %d" , side*side);
+    return 0;
+}
