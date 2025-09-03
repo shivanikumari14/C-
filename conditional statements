@@ -1,0 +1,120 @@
+#include<stdio.h>
+int main(){
+
+    int age;
+    printf("enter age :");
+    scanf("%d", &age);
+
+    if(age > 18) {
+        printf("adult\n");
+        printf("they can vote\n");
+        printf("they can drive\n");
+    }
+    else {
+        printf("not adult\n");
+
+    }
+    printf("thanku");
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+
+    int age;
+    printf("enter age :");
+    scanf("%d", &age);
+
+    if(age >= 18) {
+        printf("adult\n");
+    }
+    else if(age>13 && age<18) {
+        printf("teenager\n");
+    }
+    else {
+        printf("child\n");
+    }
+    return 0;
+}
+
+// nested if
+ #include<stdio.h>
+ int main() {
+int number;
+     printf("enter number :");
+     scanf("%d", &number);
+
+     if(number >= 0) {
+         printf("positive\n");
+         if(number % 2 == 0){
+         printf("even \n");
+         } else {
+         printf("odd \n");
+         }
+     }else {
+         printf("negative \n");
+     }
+     return 0;
+}
+
+// wap to check if a student passed or fail.
+ #include<stdio.h>
+ int main(){
+     int marks;
+     printf("enter marks(0-100) :");
+     scanf("%d" , &marks);
+    
+     if(marks >= 0 && marks <= 30) {
+         printf("FAIL \n");
+     }else if(marks > 30 && marks <= 100) {
+         printf("PASS \n");
+     }else {
+         printf("wrong marks");
+     }
+     return 0;
+ }
+
+ #include<stdio.h>
+ int main(){
+     int marks;
+     printf("enter marks(0-100) :");
+     scanf("%d" , &marks);
+
+     marks <= 30 ? printf("FAIL \n") : printf("PASS \n");
+     return 0;
+ }
+
+// WAP to find if a character entered by user is upper case or not.
+ #include<stdio.h>
+ int main(){
+     char ch;
+     printf("enter character :");
+     scanf("%c" , &ch);
+
+     if(ch >= 'A' && ch <= 'Z'){
+          printf("upper case \n");
+     } else if(ch >= 'a' && ch <= 'z'){
+         printf("lower case \n");
+     } else{
+         printf("not english letter \n");
+     }
+     return 0;
+ }
+
+
+// WAP to check if the given number is natural number or not.
+#include<stdio.h>
+int main(){
+    int numbers;
+    printf("enter numbers :");
+    scanf("%d" , &numbers);
+
+    if(numbers > 0) {
+        printf("%d is a natural number\n", numbers);
+    } else {
+        printf("%d is not a natural number\n", numbers);
+    }
+
+    return 0;
+}
+
