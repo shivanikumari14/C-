@@ -140,6 +140,20 @@ int main(){
     return 0;
 }
 
+// print reverse the table of any number using for loop
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter the number :");
+    scanf("%d" ,&n);
+
+    for(int i=10; i>=1; i--){
+        printf("%d \n" ,n*i);
+    }
+    return 0;
+}
+
+
 // keep taking numbers as input from user until user enter an odd numbers(using do while)
 #include<stdio.h>
 int main(){
